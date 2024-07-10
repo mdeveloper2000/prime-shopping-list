@@ -1,0 +1,38 @@
+body {
+    background-color: #d9f99d;
+}
+
+#app {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.new-button {
+    margin-bottom: 15px;    
+}
+
+.p-inputtext, .p-select, .p-message, .p-textarea, .p-button {
+    margin-top: 10px;   
+    margin-bottom: 10px;
+}
+
+.actions .p-button:last-of-type {
+    margin-left: 20px;
+}
+
+.p-datatable .actions {
+    display: flex;
+    justify-content: center;
+}
+
+.p-inputtext, .p-select, .p-textarea {
+    width: 100%;
+}
+
+textarea {
+    resize: none;
+}
+
+.p-dialog {
+    width: 30rem;
+}
